@@ -1,20 +1,61 @@
-.footer_main_container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    background-color: #12436C;
-    width: 98%;
-    height: 100%;
-    border-radius: 2rem 2rem 0 0;
+.footer_main_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #12436c;
+  width: 98%;
+  height: 100%;
+  border-radius: 2rem 2rem 0 0;
 }
-.logo_container{
-    display: flex;
-    color: white;
+.logo_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin: 4rem 0 2rem 0;
 }
-.pages_links{
-    width: 70%;
-    display: flex;
-    justify-content: center;
-    justify-content: space-around;
+.content_section {
+  width: 50%;
+}
+.footer_heading {
+  margin-left: 8px;
+}
+.footer_description {
+  color: white;
+  font-size: small;
+}
+.social_icon_container {
+  margin: 1.2rem 0;
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+
+}
+.pages_links {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  color: white;
+}
+.contact_details_container {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 0;
+  color: white;
+}
+
+.contact_title {
+  color: #478fcc;
+  font-size: small;
+}
+.have_a_question {
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+}
+.year_container {
+  width: 70%;
+  text-align: end;
 }

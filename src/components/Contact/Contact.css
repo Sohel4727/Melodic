@@ -1,0 +1,63 @@
+.main_contact_container {
+    font-family: lufga;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+}
+.get_in_touch_container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.get_in_touch_heading {
+  text-align: center;
+  color: #12436c;
+  width: 200px;
+}
+.contact_section {
+  margin: 1rem 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.contact_name_section{
+    display: flex;
+    justify-content: space-between;
+}
+.input_background {
+  padding: 1rem;
+  background-color: #edf0f1;
+  border-radius: 12px;
+}
+.contact_input {
+  border: none;
+  outline: none;
+  background-color: #edf0f1;
+  width: 100%;
+}
+.contact_lable {
+    color: #102e46;
+    font-weight: bold;
+}
+.contact_phone{
+    margin-left: 1rem;
+}
+.contact_email{
+    margin: 1rem 0 ;
+}
+.contact_textarea{
+    border: none;
+    outline: none;
+    background-color: #edf0f1;
+    width: 100%;
+    height: 80px;
+}
+.send_button{
+    background-color: #0A90E2;
+    color: white;
+    border: none;
+    width: 100%;
+    border-radius: 1.2rem;
+    padding: 0.8rem 0;
+    margin: 1rem 0;
+}
