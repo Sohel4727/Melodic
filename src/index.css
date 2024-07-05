@@ -1,5 +1,25 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+body {
+  font-family: "Lufga", sans-serif;
+}
+.react-multi-carousel-item {
+  display: flex;
+  justify-content: center;
+}
+.react-multiple-carousel__arrow {
+  bottom: -5 !important;
+  background-color: #12436c !important;
+}
+.react-multiple-carousel__arrow--left {
+  z-index: 10 !important;
+  left: 550px !important;
+}
+
+.react-multiple-carousel__arrow--right {
+  z-index: 10 !important;
+  right: 550px !important;
 }
