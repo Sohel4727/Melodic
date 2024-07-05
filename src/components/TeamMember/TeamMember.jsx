@@ -1,40 +1,53 @@
 import React from "react";
 import "./TeamMember.css";
-import teamProfile from "../../assets/team1.png";
+import asiyah from "../../assets/asiyah.png";
+import angga from "../../assets/angga.png";
+import Poornisha from "../../assets/Poornisha.png";
+import woYou from "../../assets/woYou.png";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 
 const TeamMember = () => {
   const teamData = [
     {
-      profile: teamProfile,
-      name: "John Doe",
-      designation: "CEO",
+      profile: asiyah,
+      name: "Aisyah",
+      designation: "I teach how to start UX",
     },
     {
-      profile: teamProfile,
-      name: "Jane Smith",
-      designation: "CTO",
+      profile: angga,
+      name: "Angga",
+      designation: "I teach how to design test",
     },
     {
-      profile: teamProfile,
-      name: "Alice Johnson",
-      designation: "CFO",
+      profile: Poornisha,
+      name: "Poornisha",
+      designation: "HR Executive",
     },
     {
-      profile: teamProfile,
-      name: "Bob Brown",
-      designation: "COO",
+      profile: woYou,
+      name: "Wo You ",
+      designation: "I teach how to do icons",
     },
     {
-      profile: teamProfile,
-      name: "Bob Brown",
-      designation: "COO",
+      profile: asiyah,
+      name: "Aisyah",
+      designation: "I teach how to start UX",
     },
     {
-      profile: teamProfile,
-      name: "Bob Brown",
-      designation: "COO",
+      profile: angga,
+      name: "Angga",
+      designation: "I teach how to design test",
+    },
+    {
+      profile: Poornisha,
+      name: "Poornisha",
+      designation: "HR Executive",
+    },
+    {
+      profile: woYou,
+      name: "Wo You ",
+      designation: "I teach how to do icons",
     },
   ];
 
