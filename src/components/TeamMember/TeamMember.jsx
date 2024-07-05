@@ -72,6 +72,8 @@ const TeamMember = () => {
 
   return (
     <div className="teamMember_wrapper">
+        <p className="our_valueble">Our Valuable</p>
+        <h1 className="team_member_heading">Team Members</h1>
       <Carousel className="carousel" responsive={responsive}>
         {teamData.map((member, index) => (
           <div key={index} className="team_card">
