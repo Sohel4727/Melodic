@@ -28,8 +28,9 @@
 .social_icon_container {
   margin: 1.2rem 0;
   display: flex;
-  justify-content: space-between;
-  width: 50%;
+  justify-content: center;
+  gap: 1rem;
+ 
 
 }
 .pages_links {
